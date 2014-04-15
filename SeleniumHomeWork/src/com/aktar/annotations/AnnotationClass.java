@@ -7,15 +7,15 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class AnnotationClass {
-	@BeforeClass
-	public static void OpenBrowser() {
-		System.out.println("Browser opens");
-	}
-
 	@Before
 	public void openHomePage() {
 		System.out.println("Home Page Opens");
-	}
+	}	
+	
+@BeforeClass
+public static void OpenBrowser() {
+	System.out.println("Browser opens");
+}	
 
 	@Test
 	public void SignIn() {
