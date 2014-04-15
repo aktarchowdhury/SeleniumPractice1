@@ -5,4 +5,5 @@
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="org.junit.After"/>
 <fullyQualifiedTypeName name="org.junit.AfterClass"/>
+<fullyQualifiedTypeName name="com.thoughtworks.selenium.DefaultSelenium"/>
 </qualifiedTypeNameHistroy>
